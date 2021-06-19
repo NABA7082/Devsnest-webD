@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  border-left: 2px gray;
   
 }
 
@@ -12,13 +13,13 @@ body{
 }
 
 
+
 #one
-
-
 {
   margin: 50px 100px 50px ;
   color:darkblue;
   float:left;
+  
 
   
   
@@ -49,6 +50,7 @@ body{
 .left {
   left: 0;
   background-color: lightblue;
+  border-right: 2px slategrey;
 }
 
 /* Control the right side */
@@ -65,7 +67,9 @@ body{
   transform: translate(-50%, -50%);
   text-align: center;
 }*/
-.h1
+.heading
 {
-  border-left: lightblue;
+  border-left: black;
+  padding-left: 50px;
+  padding-right: 50px;
 }
